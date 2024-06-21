@@ -1,0 +1,131 @@
+<app-header></app-header>
+
+<title> Control de Inccendios</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+<style>
+    .bg-custom-blue {
+        background-color: #005CB9;
+    }
+
+    .text-custom-blue {
+        color: #005CB9;
+    }
+
+    .bg-custom-orange {
+        background-color: #FF5100;
+    }
+
+    .text-custom-orange {
+        color: #FF5100;
+    }
+</style>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-4xl font-bold text-center text-custom-blue mb-8">Control de Inccendios</h1>
+        
+
+        <main class="container mx-auto my-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="https://tiendaonline.soltrak.com.pe/media/catalog/product/cache/24de4777e8d76fe4e67813c9010d7898/c/a/casco_de_bombero_metro_660c_rojo_cvisor_msa.png" alt="Casco de Bombero" class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Casco de Bombero</h2>
+                            <p class="text-gray-600">Casco resistente al fuego para protección en incendios.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $99.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Material: Fibra de vidrio ignífuga.</li>
+                                <li>Talla: Única, ajustable.</li>
+                                <li>Color: Rojo brillante.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTCOn8RY5ZG1DLLKcvuki0sYLH_8H_PgR4A&s" alt="Manguera de Incendios" class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Manguera de Incendios</h2>
+                            <p class="text-gray-600">Manguera robusta y flexible para extinción de incendios.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $79.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Longitud: 20 metros.</li>
+                                <li>Material: PVC resistente al fuego.</li>
+                                <li>Presión máxima: 15 bar.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="data:image/jpeg;base64,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" alt="Hacha de Bombero" class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Hacha de Bombero</h2>
+                            <p class="text-gray-600">Hacha multifuncional para rescate y acceso en incendios.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $149.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Material: Acero al carbono.</li>
+                                <li>Longitud: 40 cm.</li>
+                                <li>Peso: 2 kg.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="https://prevemex.com/wp-content/uploads/2023/12/Equipo-de-bombero-esencial.png" alt="Traje de Bombero" class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Traje de Bombero</h2>
+                            <p class="text-gray-600">Traje completo para protección contra fuego y calor.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $599.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Material: Nomex resistente a altas temperaturas.</li>
+                                <li>Tallas disponibles.</li>
+                                <li>Incluye casco, chaqueta y pantalones.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="https://img.freepik.com/fotos-premium/industria-bomberos-carretes-enrolladores-manguera-red-fire-manguera-contra-incendios-utilizan-rociar-agua-alta-presion-boquilla-aluminio-acoplador-conexion_351981-1430.jpg" alt="Manguera de Alta Presión" class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Manguera de Alta Presión</h2>
+                            <p class="text-gray-600">Manguera robusta para extinción de incendios.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $149.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Longitud: 30 metros.</li>
+                                <li>Presión máxima: 20 bar.</li>
+                                <li>Material: Nylon reforzado con goma.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md flex">
+                    <img src="https://www.fireequipmentmexico.com/images/equipos/equipo_de_Respiracion_ERA_3MScott_AirPak75i.jpg" alt="Equipo de Respiración Autónoma"
+                        class="w-48 h-auto rounded">
+                    <div class="ml-4 flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-custom">Equipo de Respiración Autónoma</h2>
+                            <p class="text-gray-600">Sistema de respiración para entornos con humo y gases.</p>
+                            <p class="text-gray-800 font-semibold">Precio: $799.99</p>
+                            <ul class="text-gray-800 list-disc list-inside">
+                                <li>Duración: 45 minutos.</li>
+                                <li>Capacidad del tanque: 6 litros.</li>
+                                <li>Accesorios: Máscara facial completa.</li>
+                            </ul>
+                            <a href="#" class="bg-custom-orange text-white py-2 px-4 rounded mt-4 inline-block">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        
