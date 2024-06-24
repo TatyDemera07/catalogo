@@ -8,15 +8,18 @@ import { CatalogoComponent } from "./catalogo/catalogo.component";
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 import { HeaderComponent } from './static/header/header.component';
 import { ModasComponent } from './modas/modas.component';
+import { SearchComponent } from './search/search.component';
 @NgModule({
     declarations: [
         AppComponent,
         HeaderComponent,
         ArteCulinarioComponent,
         ModasComponent,
+        SearchComponent,
         ControlIncendiosComponent,
         DesarrolloSFComponent,
         GuiaNacionalComponent,
@@ -25,7 +28,8 @@ import { ModasComponent } from './modas/modas.component';
     ],
     imports: [
         BrowserModule,
-        AppRoutingModule
+        AppRoutingModule,
+        FormsModule
     ],
     providers: [],
     bootstrap: [AppComponent],
